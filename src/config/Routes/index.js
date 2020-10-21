@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Home, Login, Register } from '../../pages'
+import { Login, MainApp, Register } from '../../pages'
 const Routes = () => {
 	return (
 		<Router>
@@ -12,7 +12,7 @@ const Routes = () => {
 					<Register />
 				</Route>
 				<Route path='/'>
-					<Home />
+					<MainApp />
 				</Route>
 			</Switch>
 		</Router>
