@@ -7,14 +7,15 @@
 	.logo {
 		width: 70px;
 		height: 70px;
+		transform: rotate(45deg);
 		object-fit: contain;
 	}
 	.social-wrapper {
 		display: flex;
 		.icon-wrapper {
 			background-color: white;
-			padding: 10px;
-			border-radius: 40px;
+			padding: 8px;
+			border-radius: 50%;
 			margin: 0px 10px;
 			.icon-medsos {
 				width: 30px;
@@ -26,6 +27,7 @@
 }
 .copyright {
 	background-color: #569e4b;
+	padding: 10px 0;
 	p {
 		font-size: 14px;
 		color: white;

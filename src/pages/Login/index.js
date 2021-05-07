@@ -14,7 +14,7 @@ const Login = () => {
 				<Gap height={18} />
 				<Input label='Password' placeholder='Password' />
 				<Gap height={50} />
-				<Button title='Register' />
+				<Button title='Login' />
 				<Gap height={100} />
 				<Link title='Belum punya akun, silahkan daftar...' />
 			</div>

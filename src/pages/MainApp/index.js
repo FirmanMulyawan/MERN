@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Footer, Header } from '../../components'
-import CreateBlog from '../CreateBlog'
-import DetailBlog from '../DetailBlog'
-import Home from '../Home'
+import InputData from '../InputData'
+import EditData from '../EditData'
+import Dashboard from '../Dashboard'
 import './mainApp.scss'
 
 const MainApp = () => {
@@ -13,14 +13,14 @@ const MainApp = () => {
 			<div className='content-wrapper'>
 				<Router>
 					<Switch>
-						<Route path='/create-blog'>
-							<CreateBlog />
+						<Route path='/input-data'>
+							<InputData />
 						</Route>
-						<Route path='/detail-blog'>
-							<DetailBlog />
+						<Route path='/edit-data'>
+							<EditData />
 						</Route>
 						<Route path='/'>
-							<Home />
+							<Dashboard />
 						</Route>
 					</Switch>
 				</Router>

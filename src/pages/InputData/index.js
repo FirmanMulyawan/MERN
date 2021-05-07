@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button, BlogItem, Gap } from '../../components'
-import './home.scss'
-const Home = () => {
+import './input-data.scss'
+
+const InputData = () => {
 	return (
 		<div className='home-page-wrapper'>
 			<div className='create-wrapper'>
@@ -24,4 +25,4 @@ const Home = () => {
 	)
 }
 
-export default Home
+export default InputData

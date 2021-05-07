@@ -1,12 +1,12 @@
 import React from 'react'
 import {
-	IconDua,
-	IconLima,
-	IconSatu,
-	IconTiga,
+	instagram,
+	github,
+	Facebook,
+	telegram,
 	Logo,
-	IconEnam,
-	IconTujuh,
+	discord,
+	bitbucket,
 } from '../../../assets'
 import './footer.scss'
 
@@ -26,13 +26,12 @@ const Footer = () => {
 					<img className='logo' src={Logo} alt='Logo' />
 				</div>
 				<div className='social-wrapper'>
-					<Icon img={IconSatu} />
-					<Icon img={IconDua} />
-					<Icon img={IconTiga} />
-					<Icon img={IconTujuh} />
-					<Icon img={IconLima} />
-					<Icon img={IconEnam} />
-					{/* <img src={IconE} alt="github"/> */}
+					<Icon img={Facebook} />
+					<Icon img={instagram} />
+					<Icon img={telegram} />
+					<Icon img={discord} />
+					<Icon img={github} />
+					<Icon img={bitbucket} />
 				</div>
 			</div>
 			<div className='copyright'>

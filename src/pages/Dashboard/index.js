@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CreateBlog = () => {
+const Dashboard = () => {
     return (
         <div>
             <p>Content Create Blog Page</p>
@@ -8,4 +8,4 @@ const CreateBlog = () => {
     )
 }
 
-export default CreateBlog
+export default Dashboard
